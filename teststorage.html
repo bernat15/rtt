@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+button {
+    width: 300px;
+    height: 100px;
+    padding: 20px 40px;
+    font-size: 24px;
+}
+            font-family: Arial, sans-serif;
+            background-image: url('https://st2.depositphotos.com/6504442/51060/v/600/depositphotos_510601110-stock-illustration-dark-purple-vector-gradient-blur.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: repeat;
+
+
+        }
+     
+    <title>Romanian</title>
+</head>
+</style>
+<h2><font color="white">Upload or Learn</font color></h2>
+
+<button type="button" onclick="window.location.href='https://drive.google.com/drive/folders/1sHyGqQqjNgvHDJ2kUGxNBC1klSSBYlaT'">Text</button> 
+<button type="button" onclick="window.location.href='https://drive.google.com/drive/folders/1MArKtOVJK6u1b5E2jYZt5SC2iMQabamd'">Images</button>
+
+</form>
+</font color>
+
+<script>
+    document.getElementById("myForm").addEventListener("submit", function(event){
+        event.preventDefault(); //previne trimitea formularului la server
+        var fname = document.getElementById("fname").value;
+        var lname = document.getElementById("lname").value;
+        var email = document.getElementById("email").value;
+        localStorage.setItem("fname", fname);
+        localStorage.setItem("lname", lname);
+        localStorage.setItem("email", email);
+    });
+</script>
+
+</body>
+</html>
