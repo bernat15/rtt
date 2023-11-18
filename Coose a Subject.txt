@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose a Subject</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://st4.depositphotos.com/1484771/37819/i/600/depositphotos_378193086-stock-photo-literature-reading-concept-banner-header.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: repeat;
+        }
+
+        .content {
+            width: 80%;
+            margin: 0 auto;
+            text-align: justify;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Choose a Subject</h1>
+    <div class="content">
+        <a href="contactus.html"><img src="contactus.png" style="transform: scale(0.5);"></a>
+    </div>
+</body>
+</html>
